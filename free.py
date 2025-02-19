@@ -193,7 +193,7 @@ def form(username, f1):
 𝗥𝗘𝗦𝗧 : {rest(username)}
 '''
     print(Panel(f'{tlg}',title='NEW HIT', style='cyan'))
-    with open('Eizon.txt','a') as ff:
+    with open('Nikz.txt','a') as ff:
       ff.write(f'{tlg}\n')
     try:requests.get(f"https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text={tlg}")
     except:pass
@@ -216,7 +216,7 @@ def email():
    while True:
     try:
         LsD = ''.join(random.choices(string.ascii_letters + string.digits, k=32))
-        UseriD = str(random.randrange(10000,17699999))
+        UseriD = str(random.randrange(10000,17699999,263014407,361365133,1629010000,2500000000,3713668786))
         variables = json.dumps({"id": UseriD, "render_surface": "PROFILE"})
         data = {"lsd": LsD, "variables": variables, "doc_id": "25618261841150840"}
         response = requests.post("https://www.instagram.com/api/graphql", headers={"X-FB-LSD": LsD}, data=data)
